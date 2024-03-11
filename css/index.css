@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     border: 0;
-
-
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+
 body {
     background-color: #562AA3;
 }
@@ -74,4 +75,15 @@ footer {
 
 footer p{
     color:#562AA3;
+}
+
+@media screen and (min-width: 1024px){
+    section {
+        flex-direction:column;
+    }
+
+    h2 {
+        font-size: 80px;
+        margin: center;
+    }
 }
